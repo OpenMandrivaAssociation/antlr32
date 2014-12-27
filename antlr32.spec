@@ -1,11 +1,12 @@
-%global bootstrap 0
+%{?_javapackages_macros:%_javapackages_macros}
+%global bootstrap 1
 %global bootstrap_version 3.1.3
 
 Name:           antlr32
 Version:        3.2
-Release:        5%{?dist}
+Release:        5.1
 Summary:        ANother Tool for Language Recognition
-
+Group:		Development/Java
 License:        BSD
 URL:            http://www.antlr3.org/
 Source0:        http://www.antlr3.org/download/antlr-%{version}.tar.gz
@@ -74,7 +75,7 @@ Summary:     API documentation for ANTLR
 %prep
 %setup -q -n antlr-%{version}
 
-%patch0 -b .orig
+%patch0 -p0 -b .orig
 
 # remove pre-built artifacts
 find -type f -a -name *.jar -delete
