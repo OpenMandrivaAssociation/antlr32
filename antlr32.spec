@@ -4,7 +4,7 @@
 
 Name:           antlr32
 Version:        3.2
-Release:        5.1
+Release:        5.2
 Summary:        ANother Tool for Language Recognition
 Group:		Development/Java
 License:        BSD
