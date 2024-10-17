@@ -8,7 +8,7 @@ Release:        5.3
 Summary:        ANother Tool for Language Recognition
 Group:		Development/Java
 License:        BSD
-URL:            http://www.antlr3.org/
+URL:            https://www.antlr3.org/
 Source0:        http://www.antlr3.org/download/antlr-%{version}.tar.gz
 
 # These artifacts are taken verbatim from maven central with the exception of the
